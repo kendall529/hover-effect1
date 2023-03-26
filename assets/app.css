@@ -13,6 +13,7 @@ body {
     overflow: hidden;
     padding: 0;
 }
+/* Hover effect learned from Hyperplexed YT */
 
 .wrapper {
     display: flex;
@@ -64,7 +65,7 @@ body {
     background: radial-gradient(
         400px circle at var(--mouse-x) var(--mouse-y),
         rgba(255, 255, 255, 0.3), transparent 40%);
-    z-index: inherit;1
+    z-index: 1;
 }
 
 .card > .card-content {
@@ -76,3 +77,5 @@ body {
     margin: 1px;
     z-index: 2;
 }
+
+/* Hover effect learned from Hyperplexed YT */
