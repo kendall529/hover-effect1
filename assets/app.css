@@ -57,14 +57,14 @@ body {
 .card::before {
     background: radial-gradient(
         800px circle at var(--mouse-x) var(--mouse-y),
-        rgba(255, 255, 255, 0.06), transparent 40%);
+        rgba(255, 0, 200, 0.47), transparent 40%);
     z-index: 3;
 }
 
 .card > .card-border {
     background: radial-gradient(
         400px circle at var(--mouse-x) var(--mouse-y),
-        rgba(255, 255, 255, 0.3), transparent 40%);
+        #ff00bb71, transparent 40%);
     z-index: 1;
 }
 
